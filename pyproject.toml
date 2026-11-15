@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "speedrouter"
+version = "0.1.0"
+description = "SpeedRouter - Route inputs to experts by estimated difficulty"
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.24"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
